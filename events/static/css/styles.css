@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.event-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.event-card:hover {
+    transform: scale(1.03);
+}
+
+.card-title {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
