@@ -14,7 +14,9 @@ SECRET_KEY = 'python -c "import secrets; print(secrets.token_urlsafe(50))'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1",  # For local development
+    "localhost",   # For local development
+    "eventplanner-dcmp.onrender.com",  ]
 
 
 # Application definition
